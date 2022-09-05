@@ -11,7 +11,7 @@ const TotalCard = ({stats}) => {
             {
               socialMediaIcon(socialMedia)
             }
-            <span className='name'>{userName}</span>
+            <small className='name'>{userName}</small>
         </div>
         <div className="followers">
             <span className='amount'>{followers}</span>
