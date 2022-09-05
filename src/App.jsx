@@ -5,7 +5,7 @@ import TotalArea from './components/total-area/total-area.component'
 
 const App = () => {
   return (
-    <main className='main-container'>
+    <main className='main-container dark-mode'>
       <div className="container">
         <Header />
         <TotalArea />

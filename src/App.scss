@@ -2,6 +2,10 @@
     height: 100vh;
     background: linear-gradient(180deg, rgba(245,247,255,1) 250px, rgba(255,255,255,1) 250px);
 
+    &.dark-mode {
+        background: linear-gradient(180deg, hsl(232, 19%, 15%) 250px, hsl(230, 17%, 14%) 250px);
+    }
+
     .container {
         max-width: 1110px;
         margin: 0 auto;            

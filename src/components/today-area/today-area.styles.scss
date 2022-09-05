@@ -3,6 +3,10 @@
     .title {
         margin-bottom: 30px;
         color: hsl(228, 12%, 44%);
+
+        &.dark-mode {
+            color: hsl(0, 0%, 100%);
+        }
     }
 
     .today-cards-container {

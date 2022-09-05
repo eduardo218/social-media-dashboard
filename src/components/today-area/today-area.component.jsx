@@ -6,7 +6,7 @@ import TodayCard from '../today-card/today-card.component'
 const TodayArea = () => {
   return (
     <section className='today-area-container'>
-        <h2 className='title'>Overview - Today</h2>
+        <h2 className='title dark-mode'>Overview - Today</h2>
         <div className="today-cards-container">
             {
                 TODAY_STATS.map((stats, index) => <TodayCard key={index} stats={stats} />)
