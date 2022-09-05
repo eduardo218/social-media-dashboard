@@ -1,8 +1,17 @@
-import React from 'react'
+import './App.scss'
+import Header from './components/header/header.component'
+import TodayArea from './components/today-area/today-area.component'
+import TotalArea from './components/total-area/total-area.component'
 
 const App = () => {
   return (
-    <div>App</div>
+    <main className='main-container'>
+      <div className="container">
+        <Header />
+        <TotalArea />
+        <TodayArea />
+      </div>
+    </main>
   )
 }
 

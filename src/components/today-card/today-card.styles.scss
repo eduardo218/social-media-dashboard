@@ -1,0 +1,52 @@
+.today-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 255px;
+    height: 125px;
+    padding: 25px;
+    border-radius: 5px;
+
+    background-color: hsl(227, 47%, 96%);
+
+    &:hover {
+        cursor: pointer;
+        background-color: hsl(227, 47%, 90%);
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .indicator {
+            font-size: 14px;
+            font-weight: 700;
+            color: hsl(228, 12%, 44%);
+        }
+    }
+
+    .data {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .amount {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .percent {
+            font-weight: 700;
+            color: green;
+            display: flex;
+            gap: 3px;
+            align-items: center;
+
+            &.negative {
+                color: red;
+            }
+        }
+    }
+}

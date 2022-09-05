@@ -1,0 +1,38 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 135px;
+
+    .header-theme-toogler{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .toogle-box{
+            display: inline-block;
+            width: 50px;
+            height: 25px;
+            border-radius: 25px;
+            background-color: hsl(230, 22%, 74%);
+
+            cursor: pointer;
+
+            &:hover {
+                background: linear-gradient(to right,hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+            }
+
+            .toogle-circle {
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                background-color: hsl(227, 47%, 96%);
+
+                margin-left: 28px;
+                margin-top: 3px;
+            }
+        }
+    }
+}
