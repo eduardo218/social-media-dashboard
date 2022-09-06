@@ -78,4 +78,19 @@
             }
         }
     }
+
+    @media (max-width: 525px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding-block: 25px;
+        gap: 30px;
+
+        .header-theme-toogler {
+            justify-content: space-between;
+            border-top: 1px solid rgba(139, 151, 198, .2);
+            padding-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
 }
