@@ -2,6 +2,9 @@
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
+## Website Link: 
+[Social Media Dashboard](https://taupe-melomakarona-ec54b2.netlify.app/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
